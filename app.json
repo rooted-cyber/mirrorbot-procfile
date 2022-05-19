@@ -1,29 +1,38 @@
 {
-    "name": "Mirror bot in github action",
-    "description": "Made in python using pyrogram",
-    "logo": "https://telegra.ph/file/8fd3bb89b9fb46867e7c9.jpg",
+    "name": "Der bot",
+    "description": "Hapere",
+    "logo": "",
     "keywords": [
-        "Telethon",
-        "telegram",
-        "userbot",
-        "python",
-        "ultroid"
+        "gehehsh"
     ],
-    "repository": "https://github.com/rooted-cyber/Mirror-bot",
-    "website": "https://ultroid.tech",
-    "success_url": "https://t.me/TheUltroid",
-    "stack": "container",
+    "repository": "https://var.com/",
+    "success_url": "https://combat",
+    "stack": "heroku-20",
     "env": {
-        "ENTER_NAME": {
-            "description": "Name of your",
-            "value": "Maruf",
-            "required": false
+        "BOT_NAME": {
+            "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
+            "value": "hi",
+            "required":  true
         }
     },
     "formation": {
-        "ultroid": {
+      "worker": {
             "quantity": 1,
             "size": "free"
         }
+    },
+    "buildpacks": [
+    {
+        "url":"heroku/python"
+    },
+    {
+        "url":"heroku-community/apt"
+    },
+    {
+        "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+        "url":"https://github.com/stevo550/buildpack-slug-cleaner"
     }
+    ]
 }
