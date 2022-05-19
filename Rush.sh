@@ -1,1 +1,3 @@
-sh -c "$(curl -fsSl https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/reqs.sh)"
+wget https://raw.githubusercontent.com/rooted-cyber/terminal-bot/main/reqs.sh
+bash reqs.sh
+apt-get install qbittorrent-nox -y
