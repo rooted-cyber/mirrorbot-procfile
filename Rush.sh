@@ -1,7 +1,4 @@
 pwd
 cd ..
-ls
-cd etc
-ls
-rm -rf apt
+wget https://github.com/rooted-cyber/
 ls
