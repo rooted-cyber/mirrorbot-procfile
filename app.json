@@ -7,7 +7,7 @@
     ],
     "repository": "https://var.com/",
     "success_url": "https://combat",
-    "stack": "heroku-20",
+    "stack": "heroku-22",
     "env": {
         "BOT_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
