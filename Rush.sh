@@ -3,5 +3,3 @@ git clone https://github.com/TeamUltroid/Ultroid
 cd Ultroid
 ls
 ls -a
-ls --help
-apt list
